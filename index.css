@@ -1,0 +1,128 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Scribble&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+html{
+    margin: 0;
+    height: 100%;
+}
+body{
+    margin: 0;
+    height: 100%;
+}
+.main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+.header{
+    width: 50%;
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    background-color: beige;
+}
+.title{
+    height: 40%;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Rubik Scribble", system-ui;
+    font-weight: 700   ;
+    font-style: normal;
+    border-radius: 15px;
+}
+.home-logo{
+    display: flex;
+    width: 30%;
+}
+.img-logo{
+    width: 80%;
+}
+.logo{
+    width: 60%;
+    height: 80%;
+    height: 82;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.menu{
+    width: 100%;
+    height: 18%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(63, 141, 141);
+}
+.a-options{
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+    color: black;
+    margin-left: 1%;
+    border-radius: 10px;
+}
+.corpo{
+    width: 55%;
+    height: 80%;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+.dogs{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.imagem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 50%;
+}
+.img-dogs{
+    display: flex;
+    max-width: 100%;
+    max-height: 100%;
+}
+.dog-name{
+    font-family: "Open Sans", sans-serif;
+}
+.dog-desc{
+    font-family: "Open Sans", sans-serif;
+}
+
+/*--ADMIN CSS---*/
+
+.include{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 12%;
+}
+.nome-sbmt{
+    border-radius: 10px;
+}
+.descricao-sbmt{
+    border-radius: 10px;
+}
